@@ -35,7 +35,7 @@ try:
 except ImportError:
     pass
 
-import widgets
+from . import widgets
 
 
 class UnknownLength: pass
